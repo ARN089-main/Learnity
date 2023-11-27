@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+   <style>
+      .iconify {
+          font-size: 35px; /* Adjust the size as needed */
+      }
+  </style>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">LEARNITY</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      <a href="chat.html"><i class="far fa-comment-alt"></i><span>ChatBot</span></a>
+   </nav>
+
+</div>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">our courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="thumb">
+            <img src="images/thumb-1.png" alt="">
+            <span>3 courses</span>
+         </div>
+         <h3 class="title">web development</h3>
+         <a href="playlist_webdev.html" class="inline-btn">view playlists</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="da.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">Data Structure</h3>
+         <a href="playlist_data.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="ML.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">Machine Learning</h3>
+         <a href="playlist_ml.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="PY.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">Python</h3>
+         <a href="playlist_p.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="Cpng.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">C Language</h3>
+         <a href="playlist_c.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="java.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">JAVA</h3>
+         <a href="playlist_java.html" class="inline-btn">view playlist</a>
+      </div>
+      <div class="box">
+         <div class="thumb">
+            <img src="cpp.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">C++</h3>
+         <a href="playlist_c++.html" class="inline-btn">view playlist</a>
+      </div>
+      <div class="box">
+         <div class="thumb">
+            <img src="os.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title">Operating System </h3>
+         <a href="playlist_OS.html" class="inline-btn">view playlist</a>
+      </div>
+      <div class="box">
+         <div class="thumb">
+            <img src="ca.png" alt="">
+            <span>3 videos</span>
+         </div>
+         <h3 class="title"> Computer Architecture  </h3>
+         <a href="playlist_CA.html" class="inline-btn">view playlist</a>
+      </div>
+
+   </div>
+
+
+</section>
+
+<section class="about">
+
+    <div class="row">
+ 
+       <div class="image">
+          <img src="images/about-img.svg" alt="">
+       </div>
+ 
+       <div class="content">
+          <h3>why choose us?</h3>
+          <p>At Learnity, we understand the challenges that computer science students face on their educational journey. We've crafted a revolutionary platform to transform the way you learn, putting your success at the forefront.</p>
+          <a href="courses.html" class="inline-btn">our courses</a>
+       </div>
+ 
+    </div>
+ 
+    <div class="box-container">
+ 
+       <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+             <h3>+10</h3>
+             <p>online courses</p>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <i class="fas fa-user-graduate"></i>
+          <div>
+             <h3>+4</h3>
+             <p>brilliant students</p>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <div>
+             <h3>100%</h3>
+             <p>job placement</p>
+          </div>
+       </div>
+ 
+    </div>
+
+</section> 
+
+<section class="contact">
+
+    <div class="row">
+ 
+       <div class="image">
+          <img src="images/contact-img.svg" alt="">
+       </div>
+ 
+       <form action="" method="post">
+          <h3>get in touch</h3>
+          <input type="text" placeholder="enter your name" name="name" required maxlength="50" class="box">
+          <input type="email" placeholder="enter your email" name="email" required maxlength="50" class="box">
+          <input type="number" placeholder="enter your number" name="number" required maxlength="50" class="box">
+          <textarea name="msg" class="box" placeholder="enter your message" required maxlength="1000" cols="30" rows="10"></textarea>
+          <input type="submit" value="send message" class="inline-btn" name="submit" href="mailto:adarshnayak@jklu.edu.com">
+       </form>
+ 
+    </div>
+ 
+    <div class="box-container">
+ 
+       <div class="box">
+         <i class="iconify" data-icon="octicon:mark-github" data-inline="false"></i>
+          <h3>Github</h3>
+          <a href="https://github.com/">learnity github</a>
+       </div>
+       
+       <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>email address</h3>
+          <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.come</a>
+       </div>
+ 
+       <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>office address</h3>
+          <a href="#">flat no. 1, a-1 building, jogeshwari,</a>
+       </div>
+ 
+    </div>
+ 
+ </section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2023 by <span>learnity</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
+
